@@ -1,9 +1,11 @@
 from time import sleep
 from random import randint
+
 '''
     #01 - Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi
     o maior e o menor peso lidos.
 '''
+
 menor = maior = float(input('Informe o peso da 1º pessoa: '))
 
 for i in range(2, 6):
