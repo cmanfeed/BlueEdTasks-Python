@@ -77,24 +77,21 @@ print(f'Lista em ordem decrescente      : {l}')
 '''
 
 l = list()
+
 p = ['Telefonou para a vítima? [S/N]  : ',
      'Esteve no local do crime? [S/N] : ',
      'Mora perto da vítima? [S/N]     : ',
      'Devia para a vítima? [S/N]      : ',
      'Já trabalhou com a vítima? [S/N]: ']
 
+r = ['Inocente',
+     'Suspeita',
+     'Cúmplice',
+     'Cúmplice',
+     'Assassino']
+
 for pergunta in p:
     l.append(int(input(pergunta).strip().upper()[0]
                  .replace('S', '1').replace('N', '0')))
 
-if sum(l) == 2:
-    print('\nSuspeita')
-
-elif sum(l) == 3 or sum(l) == 4:
-    print('\nCúmplice')
-
-elif sum(l) == 5:
-    print('\nAssassino')
-
-else:
-    print('\nInocente')
+print(f'O indíviduo é: {r[sum(l) - 1]}')
