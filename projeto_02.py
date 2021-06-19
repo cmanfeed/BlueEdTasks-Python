@@ -68,7 +68,7 @@ while True:
                 print(
                     f'\nVocê: {pedra_icon} x Computador: {pedra_icon}\n\n-- Pedra & Pedra --\n\nEmpate!')
 
-            sleep(4)
+            sleep(5)
             system('cls')
 
         elif jogador == 'Papel':
@@ -85,7 +85,7 @@ while True:
             elif computador == 'Lagarto':
                 print(
                     f'\nVocê: {papel_icon} x Computador: {lagar_icon}\n\n-- Lagarto Come Papel --\n\nComputador Ganhou!')
-                jogador_venceu += 1
+                computador_venceu += 1
             elif computador == 'Spock':
                 print(
                     f'\nVocê: {papel_icon} x Computador: {spock_icon}\n\n-- Papel Refuta Spock --\n\nVocê Ganhou!')
@@ -94,7 +94,7 @@ while True:
                 print(
                     f'\nVocê: {papel_icon} x Computador: {papel_icon}\n\n-- Papel & Pedra --\n\nEmpate!')
 
-            sleep(4)
+            sleep(5)
             system('cls')
 
         elif jogador == 'Tesoura':
@@ -115,12 +115,12 @@ while True:
             elif computador == 'Spock':
                 print(
                     f'\nVocê: {tesou_icon} x Computador: {spock_icon}\n\n-- Spock Esmaga Tesoura --\n\nComputador Ganhou!')
-                jogador_venceu += 1
+                computador_venceu += 1
             else:
                 print(
                     f'\nVocê: {tesou_icon} x Computador: {tesou_icon}\n\n-- Tesoura & Tesoura --\n\nEmpate!')
 
-            sleep(4)
+            sleep(5)
             system('cls')
 
         elif jogador == 'Lagarto':
@@ -146,7 +146,7 @@ while True:
                 print(
                     f'\nVocê: {lagar_icon} x Computador: {lagar_icon}\n\n-- Lagarto & Lagarto --\n\nEmpate!')
 
-            sleep(4)
+            sleep(5)
             system('cls')
 
         else:
@@ -166,28 +166,29 @@ while True:
                 jogador_venceu += 1
             elif computador == 'Lagarto':
                 print(
-                    f'\nVocê: {spock_icon} x Computador: {spock_icon}\n\n-- Lagarto Envenena Spock --\n\nComputador Ganhou!')
+                    f'\nVocê: {spock_icon} x Computador: {lagar_icon}\n\n-- Lagarto Envenena Spock --\n\nComputador Ganhou!')
                 computador_venceu += 1
             else:
                 print(
                     f'\nVocê: {spock_icon} x Computador: {spock_icon}\n\n-- Spock & Spock --\n\nEmpate!')
 
-            sleep(4)
+            sleep(5)
             system('cls')
 
     if jogador_venceu > computador_venceu:
         print(
-            f'\n\nVocê {jogador_venceu} X Computador {computador_venceu}\n\nVocê venceu! Parabéns!')
+            f'Você {jogad_icon} {jogador_venceu} X Computador {compu_icon} {computador_venceu}\n\nVocê venceu! Parabéns!')
 
     elif jogador_venceu < computador_venceu:
         print(
-            f'\n\nVocê {jogador_venceu} X Computador {computador_venceu}\n\nComputador venceu! Que pena!')
+            f'Você {jogad_icon} {jogador_venceu} X Computador {compu_icon} {computador_venceu}\n\nComputador venceu! Que pena!')
 
     else:
         print(
-            f'\n\nVocê {jogador_venceu} X Computador {computador_venceu}\n\nFoi empate!')
+            f'Você {jogad_icon} {jogador_venceu} X Computador {compu_icon} {computador_venceu}\n\nFoi empate!')
 
     continuar = input('\nDeseja continuar? [S/N] ').strip().upper()[0]
 
     if continuar == 'N':
+        system('cls')
         break
