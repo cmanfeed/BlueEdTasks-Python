@@ -1,12 +1,12 @@
-'''
-    #01 - Crie um programa que declare uma matriz de dimensão 3×3 e preencha com valores lidos pelo teclado. No final, mostre a matriz na tela, com essa formatação:
+# '''
+#     #01 - Crie um programa que declare uma matriz de dimensão 3×3 e preencha com valores lidos pelo teclado. No final, mostre a matriz na tela, com essa formatação:
 
-    [1][2][3]
-    [4][5][6]
-    [7][8][9]
+#     [1][2][3]
+#     [4][5][6]
+#     [7][8][9]
 
-    matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-'''
+#     matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# '''
 
 matriz = list()
 
@@ -23,12 +23,12 @@ for i in range(3):
         print(f'[{matriz[i][j]}]', end='')
     print('')
 
-'''
-    #02 - Aprimore o desafio anterior, mostrando no final:
-    A) A soma de todos os valores pares digitados.
-    B) A soma dos valores da terceira coluna. 
-    C) O maior valor da segunda linha.
-'''
+# '''
+#     #02 - Aprimore o desafio anterior, mostrando no final:
+#     A) A soma de todos os valores pares digitados.
+#     B) A soma dos valores da terceira coluna. 
+#     C) O maior valor da segunda linha.
+# '''
 
 soma_pares = soma_terceira_coluna = maior_valor_segunda = 0
 
@@ -50,12 +50,12 @@ Soma da terceira coluna         : {soma_terceira_coluna}
 Maior valor da segunda coluna   : {maior_valor_segunda}
 ''')
 
-'''
-    03 - Faça um programa que leia nome e peso de várias pessoas, guardando tudo em uma lista, depois do dado inserido, pergunte ao usuário se ele quer continuar, se ele não quiser pare o programa. No final mostre:
-        # Quantas pessoas foram cadastradas
-        # Mostre o maior peso
-        # Mostre o menor peso
-'''
+# '''
+#     03 - Faça um programa que leia nome e peso de várias pessoas, guardando tudo em uma lista, depois do dado inserido, pergunte ao usuário se ele quer continuar, se ele não quiser pare o programa. No final mostre:
+#         # Quantas pessoas foram cadastradas
+#         # Mostre o maior peso
+#         # Mostre o menor peso
+# '''
 
 pessoas = list()
 pesos = list()

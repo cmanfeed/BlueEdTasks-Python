@@ -13,6 +13,7 @@
     
     Obs: O projeto deve ser feito individualmente e entregue até o final da aula 11.
 '''
+
 from random import choice
 from time import sleep
 from os import system
