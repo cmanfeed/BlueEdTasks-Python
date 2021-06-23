@@ -83,50 +83,43 @@ Você levará cerca de {pessoa['anos_aposentadoria']} anos para se aposentar.
         perguntar ao usuário se deseja continuar a resposta seja somente sim ou não.
 '''
 
-pessoas = list()
+peoples = list()
+womensl = list()
+ab_mean = list()
+age_sum = 0
 
 while True:
-    pessoa = dict()
+    people = dict()
+    people['nam'] = input('Informe o nome: ')
 
-    pessoa['nome'] = input('Informe o nome: ')
-    pessoa['sexo'] = input(
-        'Informe o sexo biológico [M/F]: ').strip().upper()[0]
-    pessoa['idade'] = int(input('Informe a idade: '))
-    pessoas.append(pessoa)
+    while people['sex'] not in 'MF':
+        people['sex'] = input(
+            'Informe o sexo biológico [M/F]: ').strip().upper()[0]
 
-    continuar = input('Deseja continuar? [S/N]').strip().upper()[0]
-    if continuar == 'N':
+    people['age'] = int(input('Informe a idade: '))
+
+    age_sum += people['age']
+    peoples.append(people)
+
+    flag = input('Deseja continuar? [S/N]').strip().upper()[0]
+    if flag == 'N':
         break
 
-soma_idade = 0
-for p in pessoas:
-    soma_idade += p['idade']
-media_idade = soma_idade/len(pessoas)
+age_mean = age_sum/len(peoples)
+
+for p in peoples:
+    if p['sex'] == 'F':
+        womensl.append(p)
+
+    if p['age'] > age_mean:
+        ab_mean.append(p)
 
 print(f'''
-{len(pessoas)} pessoas foram cadastradas.
-A idade média dessas pessoas é {media_idade:.2f}
+Nº de pessoas cadastradas           : {len(peoples)}
+Média da idade                      : {age_mean:.2f}
+Mulheres                            : {womensl}
+Pessoas com idade acima da média    : {ab_mean}
 ''')
-
-mulheres = list()
-for p in pessoas:
-    if p['sexo'] == 'F':
-        mulheres.append(p)
-
-print('\n-- Mulheres ---')
-
-for m in mulheres:
-    print(m)
-
-acima_media = list()
-for p in pessoas:
-    if p['idade'] > media_idade:
-        acima_media.append(p)
-
-print('\n-- Idades acima da média --')
-
-for p in acima_media:
-    print(p)
 
 '''
     6. Desafio: Continuando o exercício 3 crie agora um boletim escolar, seu programa deve
