@@ -48,7 +48,10 @@ for k, v in aluno.items():
     print(f'{k} : {v}')
 
 '''
-    4. Crie um programa que leia nome, ano de nascimento e carteira de trabalho e cadastreos(com idade) em um dicionário. Se por acaso a CTPS for diferente de 0, o dicionário receberá também o ano de contratação e o salário. Calcule e acrescente, além da idade, com quantos anos a pessoa vai se aposentar. Considere que o trabalhador deve contribuir por 35 anos para se aposentar.
+    4. Crie um programa que leia nome, ano de nascimento e carteira de trabalho e cadastreos(com idade) em 
+    dicionário. Se por acaso a CTPS for diferente de 0, o dicionário receberá também o ano de contratação e 
+    o salário. Calcule e acrescente, além da idade, com quantos anos a pessoa vai se aposentar. Considere que o 
+    trabalhador deve contribuir por 35 anos para se aposentar.
 '''
 
 pessoa = dict()
@@ -131,17 +134,15 @@ Pessoas com idade acima da média    : {ab_mean}
 
 boletim = list()
 
-for i in range(3):
+for i in range(15):
     aluno = dict()
+    notas = list()
+
     aluno['nome'] = input('Informe o nome do aluno: ')
-
-    soma = 0
     for i in range(5):
-        nota = float(input(f'Informe o valor da {i+1}º nota: '))
-        aluno[i+1] = nota
-        soma += nota
-
-    aluno['media'] = soma/5
+        notas.append(float(input(f'Informe o valor da {i+1}º nota: ')))
+    aluno['notas'] = notas
+    aluno['media'] = sum(aluno['notas'])/5
 
     if 7 <= aluno['media']:
         aluno['result'] = 'Aprovado'
