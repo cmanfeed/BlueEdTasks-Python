@@ -11,12 +11,12 @@ Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na 
 | Nº    | Assunto                | Tipo     |
 | ----  | -------                | ----     |
 | [06](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_06.py) | While | `Aula` |
-| [07](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_07.py) | Exercícios CodeLab: For & While | `CodeLab` |
+| [07](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_07.py) | For & While | `CodeLab` |
 | [08](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_08.py) | Tuplas & Listas | `Aula` |
-| [09](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_09.py) | Exercícios CodeLab: Tuplas & Listas | `CodeLab` |
+| [09](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_09.py) | Tuplas & Listas | `CodeLab` |
 | [10](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_10.py) | Listas & Matrizes | `Aula`     |
 | [11](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_11.py) | Dicionários | `Aula`     |
-| [12](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_12.py) | Exercícios CodeLab: Dicionários | `CodeLab`  |
+| [12](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_12.py) | Dicionários | `CodeLab`  |
 | [13](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_13.py) | Funções | `Aula` |
 
 ### Projetos
