@@ -1,6 +1,6 @@
 # BlueEdTasks-Python
 
-<sub>**Keep learning... 👨🏽‍💻 **</sub>
+<sub>**Keep learning...**</sub>
 
 Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na Blue EdTech, uma escola de programação. Na pasta "Aulas" contém os exercícios realizados em cada aula já ministrada. Na pasta "Projetos" contém os projetos desenvolvidos para obtenção de nota ao final do módulo.
 
