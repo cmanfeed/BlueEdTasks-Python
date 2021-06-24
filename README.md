@@ -1,10 +1,12 @@
 # BlueEdTasks-Python
 
-<sub>**Keep learning...**</sub>
+<sub>**Keep learning... 👨🏽‍💻 **</sub>
 
 Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na Blue EdTech, uma escola de programação. Na pasta "Aulas" contém os exercícios realizados em cada aula já ministrada. Na pasta "Projetos" contém os projetos desenvolvidos para obtenção de nota ao final do módulo.
 
 **Ferramentas utilizadas:** Python | Jupyter Notebook
+
+### Aulas
 
 | Aula | Assunto                | Tipo     | Link     |
 | ---- | -------                | ----     | ----     |
@@ -17,6 +19,7 @@ Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na 
 |  12  | Exercícios CodeLab: Dicionários            | `CodeLab`  | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_12.py) |
 |  13  | Funções                | `Aula`     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_13.py) |
 
+### Projetos
 
 | Projetos          | Descrição | Link        | Nota |
 | -----------       | --------- | ----------- | ---- |
