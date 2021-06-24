@@ -6,7 +6,19 @@ Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na 
 
 **Ferramentas utilizadas:** Python | Jupyter Notebook
 
+| Aula | Assunto                | Tipo     | Link     |
+| ---- | -------                | ----     | ----     |
+|  06  | While                  | Aula     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_06.py) |
+|  07  | For & While            | CodeLab  | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_07.py) |
+|  08  | Tuplas & Listas        | Aula     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_08.py) |
+|  09  | Listas                 | CodeLab  | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_09.py) |
+|  10  | Listas & Matrizes      | Aula     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_10.py) |
+|  11  | Dicionários            | Aula     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_11.py) |
+|  12  | Dicionários            | CodeLab  | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_12.py) |
+|  13  | Funções                | Aula     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_13.py) |
+
+
 | Projetos          | Descrição | Link        | Nota |
 | -----------       | --------- | ----------- | ---- |
 | 01 - Detetive     | Uma suposta entrevista de um possível suspeito de assassinato... | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_01.ipynb) |  10  |
-| 02 - Jo Ken Po!   | Pedra, Papel, Tesoura, Lagarto, Spock! (Jogue contra o computador) | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_02.py)       |      |
+| 02 - Jo Ken Po!   | Pedra, Papel, Tesoura, Lagarto, Spock! (Jogue contra o computador) | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_02.py)       |  ---  |
