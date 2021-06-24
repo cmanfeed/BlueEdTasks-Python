@@ -8,20 +8,20 @@ Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na 
 
 ### Aulas
 
-| Aula | Assunto                | Tipo     | Link     |
-| ---- | -------                | ----     | ----     |
-|  06  | While                  | `Aula`     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_06.py) |
-|  07  | Exercícios CodeLab: For & While            | `CodeLab`  | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_07.py) |
-|  08  | Tuplas & Listas        | `Aula`     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_08.py) |
-|  09  | Exercícios CodeLab: Tuplas & Listas                 | `CodeLab`  | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_09.py) |
-|  10  | Listas & Matrizes      | `Aula`     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_10.py) |
-|  11  | Dicionários            | `Aula`     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_11.py) |
-|  12  | Exercícios CodeLab: Dicionários            | `CodeLab`  | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_12.py) |
-|  13  | Funções                | `Aula`     | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_13.py) |
+| Nº    | Assunto                | Tipo     |
+| ----  | -------                | ----     |
+| [06](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_06.py) | While | `Aula` |
+| [07](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_07.py) | Exercícios CodeLab: For & While | `CodeLab` |
+| [08](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_08.py) | Tuplas & Listas | `Aula` |
+| [09](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_09.py) | Exercícios CodeLab: Tuplas & Listas | `CodeLab` |
+| [10](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_10.py) | Listas & Matrizes | `Aula`     |
+| [11](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_11.py) | Dicionários | `Aula`     |
+| [12](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_12.py) | Exercícios CodeLab: Dicionários | `CodeLab`  |
+| [13](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_13.py) | Funções | `Aula` |
 
 ### Projetos
 
-| Projetos          | Descrição | Link        | Nota |
-| -----------       | --------- | ----------- | ---- |
-| 01 - Detetive     | Uma suposta entrevista de um possível suspeito de assassinato... | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_01.ipynb) |  **10**  |
-| 02 - Jo Ken Po!   | Pedra, Papel, Tesoura, Lagarto, Spock! (Jogue contra o computador) | [Link](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_02.py)       |  ---  |
+| Nº   | Assunto                | Nota      |
+| ---- | ---------              | ----      |
+| [01](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_01.ipynb) | Detetive Virtual  |  **10**  |
+| [02](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_02.py)    | Jo Ken Po! (Lizard, Spock) |  ---     |
