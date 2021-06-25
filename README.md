@@ -24,4 +24,4 @@ Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na 
 | Nº   | Assunto                | Nota      |
 | ---- | ---------              | ----      |
 | [01](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_01.ipynb) | Detetive Virtuals  |  **10**  |
-| [02](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_02.py)    | Jo Ken Po! |  ---     |
+| [02](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_02.py)    | Jo Ken Po ! |  ---     |
