@@ -27,7 +27,11 @@ while True:
     # Limpando o terminal pra ficar bonitinho
     system('cls')
     # Laço para executar em cada rodada
-    for r in range(rodadas):
+    r = 1
+    while r <= rodadas:
+        # Mostra o placar da rodada e o número da rodada
+        print(
+            f'Rodada {r} | 1️⃣ : {rodadas_vencidas[1]}    | 2️⃣ : {rodadas_vencidas[2]}     | 3️⃣ : {rodadas_vencidas[3]}     | 4️⃣ : {rodadas_vencidas[4]}')
         # 'jogadas' contém a jogada da rodada atual de cada um dos quatro jogadores
         jogadas = choices(range(1, 7), k=4)
         # Mostrar a jogada de cada jogador pra ficar bonitinho
@@ -43,18 +47,25 @@ while True:
             sleep(2)
             # Incremendo a vitória no dicionário de rodadas_vencidas
             rodadas_vencidas[vencedor] = rodadas_vencidas[vencedor] + 1
+            # Caso haja um vencedor na rodada, parte pra próxima
+            r += 1
+        # Caso haja um empate com os maiores números, a rodada é repetida
         else:
-            print(f'\nXii... Empatou! Vamos de próxima!')
+            print(f'\nXii... Empatou! Vamos repetir a rodada!')
             sleep(2)
         # Limpando o Terminal
         system('cls')
+
+    # Printa o placar final
+    print(
+        f'Placar Final | 1️⃣ : {rodadas_vencidas[1]}    | 2️⃣ : {rodadas_vencidas[2]}     | 3️⃣ : {rodadas_vencidas[3]}     | 4️⃣ : {rodadas_vencidas[4]}')
     # Ordenando o dicionário do jogador que teve mais vitórias
     # para o que teve menos vitórias
     rodadas_vencidas = sorted(rodadas_vencidas.items(),
                               key=lambda x: x[1], reverse=True)
     # Printa o vencedor (rodadas_vencidas[0])
     print(
-        f'O jogador {rodadas_vencidas[0][0]} ganhou {rodadas_vencidas[0][1]} partidas! Ele venceu!')
+        f'\nO jogador {rodadas_vencidas[0][0]} ganhou {rodadas_vencidas[0][1]} partidas! Ele venceu!')
     # Caso o jogador não queira continuar, termina o jogo
     flag = input('\nDeseja continuar? [S/N] ').strip().upper()
     if flag == 'N':
