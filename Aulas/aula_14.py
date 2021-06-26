@@ -139,7 +139,7 @@ def construct_date(date_str):
     try:
         datetime.datetime(int(year), int(month), int(day))
     except:
-        return 'Data não é valida!'
+        return 'NULL'
 
     month_names = ['JANEIRO', 'FEVEREIRO', 'MARÇO', 'ABRIL', 'MAIO', 'JUNHO', 'JULHO',
                    'AGOSTO', 'SETEMBRO', 'OUTUBRO', 'NOVEMBRO', 'DEZEMBRO']
