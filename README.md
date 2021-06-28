@@ -18,6 +18,7 @@ Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na 
 | [11](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_11.py) | Dicionários | `Aula`     |
 | [12](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_12.py) | Dicionários | `CodeLab`  |
 | [13](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_13.py) | Funções | `Aula` |
+| [14](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Aulas/aula_14.py) | Funções | `CodeLab` |
 
 ### Projetos
 
@@ -25,3 +26,4 @@ Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na 
 | ---- | ---------              | ----      |
 | [01](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_01.ipynb) | Dectetive Virtuals  |  `10`  |
 | [02](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_02.py)    | Jo Ken Po! |  `--`     |
+| [03](https://github.com/cmanfeed/BlueEdTasks-Python/blob/master/Projetos/projeto_03.py)    | Dados Game |  `--`     |
