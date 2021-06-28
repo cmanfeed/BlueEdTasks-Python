@@ -19,6 +19,8 @@ from os import system
 while True:
     # Limpando o terminal pra ficar bonitinho
     system('cls')
+    # Printando o nome do jogo
+    print('🎲 🎲 ---- JOGO DOS DADOS! ---- 🎲 🎲\n')
     # Dicionário que contém a quantidade de vitórias
     # de cada jogador
     rodadas_vencidas = {1: 0, 2: 0, 3: 0, 4: 0}
@@ -37,7 +39,7 @@ while True:
         # Mostrar a jogada de cada jogador pra ficar bonitinho
         for j in range(4):
             print(f'\nJogador {j + 1} jogou o 🎲 e deu... {jogadas[j]}!')
-            sleep(2.5)
+            sleep(1.5)
         # Caso apenas um jogador tenha tirado o maior número na rodada
         if jogadas.count(max(jogadas)) == 1:
             # Gravo o index do maior número
@@ -59,13 +61,18 @@ while True:
     # Printa o placar final
     print(
         f'Placar Final | 1️⃣ : {rodadas_vencidas[1]}    | 2️⃣ : {rodadas_vencidas[2]}     | 3️⃣ : {rodadas_vencidas[3]}     | 4️⃣ : {rodadas_vencidas[4]}')
-    # Ordenando o dicionário do jogador que teve mais vitórias
-    # para o que teve menos vitórias
-    rodadas_vencidas = sorted(rodadas_vencidas.items(),
-                              key=lambda x: x[1], reverse=True)
-    # Printa o vencedor (rodadas_vencidas[0])
-    print(
-        f'\nO jogador {rodadas_vencidas[0][0]} ganhou {rodadas_vencidas[0][1]} partidas! Ele venceu!')
+    # Se existir +1 jogador com a maior pontuação
+    if list(rodadas_vencidas.values()).count(max(rodadas_vencidas.values())) > 1:
+        print(f'\nXii... Houve um empate na pontuação final! Repita o jogo para tentar novamente.')
+    # Caso exista somente um jogador com maior pontuação
+    else:
+        # Ordenando o dicionário do jogador que teve mais vitórias
+        # para o que teve menos vitórias
+        rodadas_vencidas = sorted(rodadas_vencidas.items(),
+                                  key=lambda x: x[1], reverse=True)
+        # Printa o vencedor (rodadas_vencidas[0])
+        print(
+            f'\nO jogador {rodadas_vencidas[0][0]} ganhou {rodadas_vencidas[0][1]} partidas! Ele venceu!')
     # Caso o jogador não queira continuar, termina o jogo
     flag = input('\nDeseja continuar? [S/N] ').strip().upper()
     if flag == 'N':
