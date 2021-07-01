@@ -82,8 +82,8 @@ class Pessoa:
 
     def mostrarPessoa(self):
         print(f'''
-              Nome : {self.nome}
-              Idade : {self.idade}
-              Peso : {self.peso}
-              Altura : {self.altura}
+              Nome      : {self.nome}
+              Idade     : {self.idade}
+              Peso      : {self.peso}
+              Altura    : {self.altura}
               ''')
