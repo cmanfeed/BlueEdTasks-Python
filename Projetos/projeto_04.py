@@ -41,9 +41,11 @@ votos = [
     {'nome': 'Branco', 'votos': 0},
 ]
 
-# função para mostrar os candidatos e a quantidade
-# de votos que cada um recbeu
+
 def mostrar_candidatos():
+    # função para mostrar os candidatos e a quantidade
+    # de votos que cada um recebeu
+
     print(f'''
     --------- ELEIÇÕES 2021 --------
 
@@ -57,9 +59,11 @@ def mostrar_candidatos():
     
     ''')
 
-# função para mostrar qual candidato possui maior
-# número de votos
+
 def mostrar_mais_votado():
+    # função para mostrar qual candidato possui maior
+    # número de votos
+
     # assume que o mais votado é o primeiro candidato
     mais_votado = votos[0]
     # percorre o dicionário de candidatos e votos
@@ -72,16 +76,18 @@ def mostrar_mais_votado():
     print(
         f'\n-----> Vencedor até o momento: {mais_votado["nome"]} com {mais_votado["votos"]} Votos! <-----\n')
 
-# função que calcula a idade do eleitor e retorna
-# se o voto dele é NEGADO, OPCIONAL ou OBRIGATÓRIO
+
 def autoriza_voto(ano_nascimento):
+    # função que calcula a idade do eleitor e retorna
+    # se o voto dele é NEGADO, OPCIONAL ou OBRIGATÓRIO
+
     from datetime import date
     # calculo a idade com base no ano atual
     idade = date.today().year - ano_nascimento
     # caso o eleitor tenha menos que 16 anos
     if idade < 16:
         return f'NEGADO'
-    # caso o eleitor tenha de 16 a 18 anos ou 
+    # caso o eleitor tenha de 16 a 18 anos ou
     # mais que 70 anos
     elif idade in range(16, 19) or idade > 70:
         return f'OPCIONAL'
@@ -89,10 +95,12 @@ def autoriza_voto(ano_nascimento):
     else:
         return f'OBRIGATÓRIO'
 
-# função que checa o status retornado por autoriza_voto()
-# permite a votação e contabiliza o voto no dicionário de
-# votos
+
 def votacao(autoriza_voto, numero):
+    # função que checa o status retornado por autoriza_voto()
+    # permite a votação e contabiliza o voto no dicionário de
+    # votos
+
     # se o voto do eleitor for OPCIONAL ou OBRIGATÓRIO
     if autoriza_voto in ['OPCIONAL', 'OBRIGATÓRIO']:
         # se o numero do candidato estiver entre 1 e 5
@@ -120,7 +128,7 @@ while True:
     votacao(autorizacao, numero)
 
     mostrar_candidatos()
-    mostrar_votos()
+    mostrar_mais_votado()
 
     flag = input('Deseja continuar? [S/N] ').strip().upper()
     if flag == 'N':
