@@ -1,4 +1,5 @@
 from os import system
+from time import sleep
 
 # 'votos' será um dicionário que irá conter os
 # participantes da eleição e a quantidade de voto
@@ -17,7 +18,7 @@ def mostrar_candidatos():
     # de votos que cada um recebeu
 
     print(f'''
-    --------- ELEIÇÕES 2021 --------
+         --------- ELEIÇÕES 2021 ---------
 
     CANDIDATO           NÚMERO           VOTOS
 
@@ -85,17 +86,21 @@ def votacao(autoriza_voto, numero):
     # caso o voto do eleitor seja NEGADO
     else:
         print('Você não pode votar.')
+    sleep(3)
+
 
 if __name__ == '__main__':
     while True:
         system('cls')
         mostrar_candidatos()
 
-        autorizacao = autoriza_voto(int(input('Qual o ano do seu nascimento? ')))
+        autorizacao = autoriza_voto(
+            int(input('Qual o ano do seu nascimento? ')))
         numero = int(input('\nQual o número do seu candidato? '))
 
         system('cls')
         votacao(autorizacao, numero)
+        system('cls')
 
         mostrar_candidatos()
         mostrar_mais_votado()

@@ -2,19 +2,10 @@ from conta import Conta
 
 if __name__ == '__main__':
 
-    banco = list()
+    conta001 = Conta()
 
-    while True:
-        conta = Conta(input('Digite o nome do titular: '),
-                      int(input('Digite o saldo do titular: ')))
-        
-        banco.append(conta)
+    conta001.titular = 'Pedrão'
 
-        flag = input('Deseja continuar? [S/N] ').strip().upper()
-        if flag == 'N':
-            break
-
-print(banco[1].depositar(100))
-
-for c in banco:
-    print(c)
+    conta001.saldo = 100
+    
+    print(conta001)
