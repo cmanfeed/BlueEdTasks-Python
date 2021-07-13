@@ -1,8 +1,8 @@
-# BlueEdTasks-Python
+# blue-edtasks-m1
 
 <sub>**Keep learning...**</sub>
 
-Fala pessoal! Nesse repositório estão os exercícios e projetos realizados na Blue EdTech, uma escola de programação. Na pasta "Aulas" contém os exercícios realizados em cada aula já ministrada. Na pasta "Projetos" contém os projetos desenvolvidos para obtenção de nota ao final do módulo.
+Fala pessoal! Nesse repositório estão os exercícios e projetos realizados no módulo 1 da Blue EdTech, uma escola de programação. O objetivo do módulo é o ensino de Lógica de Programação com Python. Na pasta "Aulas" contém os exercícios realizados em cada aula já ministrada. Na pasta "Projetos" contém os projetos desenvolvidos para obtenção de nota ao final do módulo.
 
 **Ferramentas utilizadas:** Python | Jupyter Notebook
 
